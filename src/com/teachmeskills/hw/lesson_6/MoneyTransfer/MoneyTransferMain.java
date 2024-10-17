@@ -1,7 +1,5 @@
 package com.teachmeskills.hw.lesson_6.MoneyTransfer;
 
-import java.util.Scanner;
-
 /**
  * Задача 2
  * Создать класс CreditCard c полями номер счета, текущая сумма на счету.
