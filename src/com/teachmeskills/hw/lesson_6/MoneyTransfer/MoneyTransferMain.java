@@ -1,5 +1,7 @@
 package com.teachmeskills.hw.lesson_6.MoneyTransfer;
 
+import java.util.Scanner;
+
 /**
  * Задача 2
  * Создать класс CreditCard c полями номер счета, текущая сумма на счету.
@@ -18,4 +20,14 @@ package com.teachmeskills.hw.lesson_6.MoneyTransfer;
  */
 
 public class MoneyTransferMain {
+
+    public static void main(String[] args) {
+
+        TransferService transferService = new TransferService();
+
+        int numberOfCards = transferService.selectNumberOfCardsToCreate();
+        transferService.createCards(numberOfCards);
+
+        transferService.selectOperation();
+    }
 }

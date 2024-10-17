@@ -31,6 +31,7 @@ public class StudentOperation {
             students[i] = new Student(studentName, studentLastName, passportNumber, groupName, age);
         }
     }
+
     public void showStudentInfo() {
         if (students != null) {
             for (int i = 0; i < students.length; i++) {
